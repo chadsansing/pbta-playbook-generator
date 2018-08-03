@@ -19,6 +19,8 @@ Right now we especially need:
 - Character looks.
 - Moves.
 
+In the future I'll work on better code and styling. However, if you'd like to work on either of those things right now, please feel free to do so!
+
 Questions? [Let me know!](mailto:csansing@gmail.com)
 
 [Powered by the Apocalypse](https://en.wikipedia.org/wiki/Powered_by_the_Apocalypse): this project is inspired by [D. Vincent Baker's](https://en.wikipedia.org/wiki/Vincent_Baker) [*Apocalypse World*](http://www.apocalypse-world.com/) role-playing game.
