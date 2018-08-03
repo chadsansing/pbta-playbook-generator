@@ -1,0 +1,241 @@
+<!doctype html>
+
+<html>
+
+  <head>
+    
+    <title>PbtA playbook generator</title>
+    
+    <meta name="title" content="PbtA playbook generator">
+    <meta name="author" content="Chad Sansing">
+    <meta charset="utf-8">
+    
+    <link rel="Stylesheet" href="style.css" type="text/css">
+    
+    <script src="script.js" type="text/javascript"></script>
+    
+  </head>
+  
+  <body>
+    
+    <div id="playbook">
+    
+      <header>
+      
+        <h1>PbtA playbook generator</h1>
+      
+        <p>Click here to create a new playbook:</p>
+      
+        <button id="playbook-button" onClick="Playbook()">Go aggro!</button>
+      
+      </header>
+      
+      <main>
+      
+        <div id="playbook-name"><h2>Playbook name</h2></div>
+        
+        <div id="playbook-description">
+        
+          <h3>Description:</h3>
+        
+          <p id="description-copy"></p>
+        
+        </div>
+      
+        <div id="character-name">
+        
+          <h3>Name:</h3>
+      
+        </div>
+    
+        <div id="look">
+        
+          <h3>Looks:</h3>
+      
+        </div>
+    
+        <div id="stats-and-moves">
+        
+          <h3>Stats & moves:</h3>
+      
+          <div id="cool">
+            <ul>
+              <li><div id="cool-stat"><strong>Cool:</strong></div></li>
+              <li><em>do something under fire</em></li>
+              <li>[ ] highlight</li>
+            </ul>
+          </div>
+      
+          <div id="hard">
+            <ul>
+              <li><div id="hard-stat"><strong>Hard:</strong></div></li>
+              <li><em>go aggro</em></li>
+              <li><em>sucker someone</em></li>
+              <li><em>do battle</em></li>
+              <li>[ ] highlight</li>
+            </ul>
+          </div>
+      
+          <div id="hot">
+            <ul>
+              <li><div id="hot-stat"><strong>Hot:</strong></div></li>
+              <li><em>seduce or manipulate</em></li>
+              <li>[ ] highlight</li>
+            </ul>
+          </div>
+      
+          <div id="sharp">
+            <ul>
+              <li><div id="sharp-stat"><strong>Sharp:</strong></div></li>
+              <li><em>read a sitch</em></li>
+              <li><em>read a person</em></li>
+              <li>[ ] highlight</li>
+            </ul>
+          </div>
+      
+          <div id="weird">
+            <ul>
+              <li><div id="weird-stat"><strong>Weird:</strong></div></li>
+              <li><em>open your brain</em></li>
+              <li>[ ] highlight</li>
+            </ul>
+          </div>
+            
+        </div>
+      
+        <h3>Hx:</h3>
+        
+        <p>Pick any 1, 2, or 3.</p>
+      
+        <div id="hx-values">
+        
+          <ul>
+            <li>[ ] <span id="hx-value-one"></span> with <span id="hx-character-one"></span></li>
+            <li>[ ] <span id="hx-value-two"></span> with <span id="hx-character-two"></span></li>
+            <li>[ ] <span id="hx-value-three"></span> with <span id="hx-character-three"></span></li>
+            <li>[ ] <span id="hx-value-four"></span> with <span id="hx-character-four"></span></li>
+            <li>[ ] <span id="hx-value-five"></span> with <span id="hx-character-five"></span></li>
+          </ul>
+        
+        </div>
+      
+        <div id="special-move-list>">
+          
+          <h3>Special move:</h3>
+          
+          <div id="special-move"></div>
+        
+        </div>
+      
+        <div id="improvement">
+        
+          <h3>Improvement</h3>
+        
+          <h4>Experience &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [ ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [ ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [ ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [ ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [ ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Improvement</h4>
+        
+          <ul>
+            <li>[ ] get +1sharp (max cool+2 or +3)</li>
+            <li>[ ] get +1cool (max hard+2 or +3)</li>
+            <li>[ ] get +1hard (max hot+2 or +3)</li>
+            <li>[ ] get +1hard (max sharp+2 or +3)</li>
+            <li>[ ] get +1weird (max weird+2 or +3</li>
+            <li>[ ] get a new playbook move</li>
+            <li>[ ] get a new playbook move</li>
+            <li>[ ] get a supplier (cf, detail with the MC)</li>
+            <li>[ ] get a move from another playbook</li>
+            <li>[ ] get a move from another playbook</li>
+          </ul>
+        
+          <ul>
+            <li>[ ] get +1 to any stat (max stat+3)</li>
+            <li>[ ] retire your character to safety</li>
+            <li>[ ] create a second character to play</li>
+            <li>[ ] change your character to a new playbook</li>
+            <li>[ ] choose 3 basic moves and advance them</li>
+            <li>[ ] advance the other 3 basic moves</li>
+          </ul>
+      
+        </div>
+      
+        <div id="harm-value">
+        
+          <h3>Harm:</h3>
+        
+          <ul>
+            <li>[ ] 3:00</li>
+            <li>[ ] 6:00</li>
+            <li>[ ] 9:00</li>
+            <li>[ ] 10:00</li>
+            <li>[ ] 11:00</li>
+            <li>[ ] 12:00</li>
+          </ul>
+        
+          <h4>When life becomes untenable:</h4>
+        
+          <ul>
+            <li>[ ] come back with -1hard</li>
+            <li>[ ] come back with +1weird(max+3)</li>
+            <li>[ ] change to a new playbook</li>
+            <li>[ ] die</li>
+          </ul>
+        
+        </div>
+      
+        <div id="playbook-moves">
+        
+          <h3>Playbook moves:</h3>
+        
+          <p>Pick any 3.</p>
+          
+          <div id="playbook-moves-list"></div>
+        
+        </div>
+      
+        <div id="other-moves-list">
+        
+          <h3>Other moves:</h3>
+          
+          <p>Check all that apply and add additional moves.</p>
+        
+          <ul>
+            <li>[ ] All the basic moves.</li>
+            <li>[ ] All the combat moves.</li>
+            <li>[ ] All the vehicle moves.</li>
+            <li>Other:</li> 
+          </ul>
+        
+        </div>
+      
+        <div id="barter-and-gear-content">
+        
+          <h3>Gear:</h3>
+          
+          <p>Pick any 3.</p>
+          
+          <div id="gear-list"></div>
+        
+        </div>
+        
+        <div id="barter">
+          
+          <h3>Barter</h3>
+          
+          <p>Pick any option between sessions.</p>
+          
+          <div id="barter-list"></div>
+          
+        </div>
+        
+      </main>
+
+    </div>
+    
+    <footer>
+      <p><a href="https://creativecommons.org/licenses/by/4.0/legalcode">CC BY</a> <a href="https://github.com/chadsansing">Chad Sansing</a></p>
+      <p><a href="https://en.wikipedia.org/wiki/Powered_by_the_Apocalypse">Powered by the Apocalypse</a>: inspired by <a href="https://en.wikipedia.org/wiki/Vincent_Baker">D. Vincent Baker's</a> <a href="http://apocalypse-world.com/"><em>Apocalypse World</em></a> role-playing game</p>
+      <p>Last updated: 8/3/18</p>
+    </footer>
+    
+  </body>
+  
+</html>
