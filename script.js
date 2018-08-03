@@ -227,7 +227,7 @@ function Playbook() {
   
   //Barter
   
-  var barters = ["Pull guard duty", "Work at a clinic", "Serve as a bodyguard", "Steal something", "Recover a lost or stolen item", "Go on a raid", "Assassinate a target", "Murder for hire", "Escort a caravan", "Spy", "Kidnap", "Make something", "Hide something", "Hide someone", "Research something", "Teach something", "Perform something", "Plant evidence", "Read someone's mind", "Erase someone's mind", "Poison someone", "Escort someone", "Repair something", "Translate something", "Work an archaeological dig", "Work at a shop"];
+  var barters = ["Pull guard duty", "Work at a clinic", "Serve as a bodyguard", "Steal something", "Recover a lost or stolen item", "Go on a raid", "Assassinate a target", "Murder for hire", "Escort a caravan", "Spy", "Kidnap", "Make something", "Hide something", "Hide someone", "Research something", "Teach something", "Perform something", "Plant evidence", "Read someone's mind", "Erase someone's mind", "Poison someone", "Escort someone", "Repair something", "Translate something", "Work an archaeological dig", "Work at a shop", "Sell something", "Smuggle something", "Sell something illegal"];
   
   var myBarterOne = barters[Math.floor(Math.random()*barters.length)];
   this.myBarterOne = myBarterOne;
