@@ -17,7 +17,7 @@ Right now we especially need:
 
 Questions? [Let me know!](mailto:csansing@gmail.com)
 
-[Powered by the Apocalypse](https://en.wikipedia.org/wiki/Powered_by_the_Apocalypse): inspired by [D. Vincent Baker's](https://en.wikipedia.org/wiki/Vincent_Baker) [*Apocalypse World*](http://www.apocalypse-world.com/) role-playing game.
+[Powered by the Apocalypse](https://en.wikipedia.org/wiki/Powered_by_the_Apocalypse): this project is inspired by [D. Vincent Baker's](https://en.wikipedia.org/wiki/Vincent_Baker) [*Apocalypse World*](http://www.apocalypse-world.com/) role-playing game.
 
 New content is licensed CC BY 4.0 by Chad Sansing.
 
