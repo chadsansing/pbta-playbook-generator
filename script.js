@@ -205,7 +205,7 @@ function Playbook() {
   
   //Gear
   
-  var gear = ["fashion worth 1-armor", "fashion worth 2-armor", "a knife", "a sword", "a dagger", "a dirk", "1-stock healing potion", "1 repair kit", "1-stock torch", "1-stock camping supplies", "1-stock first aid kit", "1-stock alchemy kit", "rope", "climbing gear", "a shield", "a hammer", "a spear", "a wand", "a staff", "a robe", "had gear", "2-stock rations", "a bow", "a crossbow", "a pistol", "a rifle", "a heavy weapon", "oddments woth 1-barter", "oddments worth 2-barter", "oddments worth 3-barter", "oddments worth 4-barter", "a treasure map", "1-stock stationery kit", "a disguise"];
+  var gear = ["fashion worth 1-armor", "fashion worth 2-armor", "a knife", "a sword", "a dagger", "a dirk", "1-stock healing potion", "1 repair kit", "1-stock torch", "1-stock camping supplies", "1-stock first aid kit", "1-stock alchemy kit", "rope", "climbing gear", "a shield", "a hammer", "a spear", "a wand", "a staff", "a robe", "head gear", "2-stock rations", "a bow", "a crossbow", "a pistol", "a rifle", "a heavy weapon", "oddments woth 1-barter", "oddments worth 2-barter", "oddments worth 3-barter", "oddments worth 4-barter", "a treasure map", "1-stock stationery kit", "a disguise"];
   
   var myGearOne = gear[Math.floor(Math.random()*gear.length)];
   this.myGearOne = myGearOne;
