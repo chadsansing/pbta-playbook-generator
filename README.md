@@ -12,7 +12,7 @@ Right now we especially need:
 
 - Playbook names.
 - Character names.
-- CHaracter looks.
+- Character looks.
 - Moves.
 
 Questions? [Let me know!](mailto:csansing@gmail.com)
