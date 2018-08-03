@@ -12,7 +12,7 @@ Right now the generator spits out silly playbooks without much synergy or sense 
 
 If you would like to contribute, but you don't know much about HTML, CSS, JS, or GitHub, you can visit the "Issues" tab up above and just open up a new issue - it's like a comment - to suggest something we should add to the generator like a move, name, or piece of gear.
 
-Right now we especially need:
+The project especially needs:
 
 - Playbook names.
 - Character names.
